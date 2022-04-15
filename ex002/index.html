@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="teste.ico" type="image/x-icon"> <!-- Adding Favicon -->
+    <title>Fab`s Site</title> <!-- Head on the tab -->
+    <style>
+        mark {
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Paragraphs and lines</h1> <!-- Title -->
+    <h2>Second title - Hierarchy</h2>
+    <h3>Title level 3</h3>
+    <p>Now you can write whatever you want ans a paragraph.</p>
+    <h2>Nobody knows</h2>
+    <h3>What does nobody know?</h3>
+    <p>Nobody knows nothing</p>
+    <h3>Who knows something</h3>
+    <p>As mentioned before, nobody</p>
+    <hr>
+    <p>You can write <!-- Paragraph -->
+        a paragraph in any
+         way, but it needs
+        to be between the
+        
+               tags.
+               Doesn`t matter what you do, you won`t be able to break the paragraph unless you use the right tags &lt;p&gt; <!-- LT= less than, GT = Greater than -->
+    </p>
+    <p>
+        If you need to break the text, <br> use &lt;br&gt; to do so
+    </p>
+    <p>Let`s add some special simbols: <!-- Simbols -->
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &dollar;
+        &uarr;
+    </p>
+    <p>
+        Let`s add some Emoji, find emojipedia: <!-- Emojis -->
+        &#x1F929
+        &#x1F911
+        <br>
+
+    </p>
+    <picture>
+        <source media="(max-width: 850px)" srcset="Landscape_mountain-p.jpg" type="image/jpg">
+        <img src="Landscape_mountain.jpg" alt="Landscape_mountain">
+    </picture> <!-- Images -->
+    <p>We can also load external images from links</p>
+    <img src="https://icon-library.com/images/html5-icon-png/html5-icon-png-5.jpg" alt="html 
+    logo"> 
+    <h1>Text Format</h1>
+    <h2>Bold</h2>
+    <p>In this sentence we have a <b>Bold Part</b> as you can see</p> <!--No Semantic Tag-->
+    <p>In this sentence we have a <strong>Bold Part</strong> as you can see</p> <!--Right way to do, as gives the bold the meaning of highlight-->
+    <hr>
+    <h2>Italic</h2>
+    <p>In this sentence we have a <i>italic part</i>, no semantic</p> <!--No Semantic Tag-->
+    <p>In this sentence we have a <em>italic part</em>, Semantic</p><!--Right way to do, as gives the italic the meaning of emphasis-->
+    <h2>Highlighted Text</h2>
+    <p>We can create a <mark>highlighted text</mark> with a tag mark</p>
+    <p>----<mark>second test</mark>----</p>
+    <h2>Bigger and Smaller letters</h2>
+    <p>We are creating a <big>text with Bigger letters</big> and also a <small>text with small letters</small> on this paragraph</p> <!--the tag big is not semantic and will no longer be part of HTML in the future-->
+    <h2>Excluded text</h2>
+    <p>We can mark a <del>text as excluded</del> using the tag del</p>
+    <h2>Inserted text</h2>
+    <p>We can mark <ins>text as inserted</ins> using the tag ins, the tag `u` can also underlne the text, but is not semantic</p>
+    <h2>Superscript text</h2>
+    <p>When you need to right something like x<sup>20</sup>+3<sup>4</sup></p>
+    <h2>Subscript text</h2>
+    <p>When you need to write something like H<sub>2</sub>O</p>
+    <h2>Codes</h2>
+    <pre>
+        <code>
+    num = int(input('Number: '))
+    if num % == 0:
+        print(f'{num} is even')
+    else:
+        print(f'{num} is odd)
+        </code>
+    </pre>
+    <h2>Simple Quotes</h2>
+    <p>Einstein said: <q>We cannot solve our problems with the same thinking we used when we created them.</q></p>
+    <h2>Full Quotes</h2>
+    <p>As said by Goalcast on his website</p>
+    <blockquote cite="https://www.goalcast.com/top-30-most-inspiring-albert-einstein-quotes/">
+        Einstein’s name has become synonymous with genius and creativity
+    </blockquote>
+        <!--With the blockquote you can link the quote to a website, and this won`t effect your page vizually but Google algorithm with value more your site, and the site where you got the quote-->
+
+    <h2>Abreviation</h2>
+    <p>I`m studying <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr>. I`m enjoying it</p>
+    <hr>
+    <h1>Working with Links</h1>
+    <h2>Using external links</h2>
+
+    <p>Test 1 - You can access my <a href="https://github.com/fabiosimoesds">GitHub profile</a></p>    
+    <p>Test 2 - You can access my <a href="https://github.com/fabiosimoesds" target="_blank" rel="external">GitHub profile</a></p>
+
+    <h2>Using Internal links</h2>
+    <p>This is the first page of this site, you can also access my <a href="pag002.html" rel="next">Second Page</a></p>
+    <p><a href="extraFolder/pag003.html">Click Here</a> to go to page N<sup>o</sup>3, Downloads Page!</p>
+    
+    <h1>Dinamic Images</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="dinamicimages/photo-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="dinamicimages/photo-m.png" type="image/png">
+        <img src="dinamicimages/photo-g.png" alt="flexible image">
+    </picture>
+
+    <h1>Audio on your site</h1>
+    <audio preload="metadata" controls>
+        <source src="music.mp3" type="audio/mpeg">
+        <source src="music.ogg" type="audio/ogg">
+        <source src="music.wav" type="audio/wav">
+        <p>You browser won`t load the audio <a href="music.mp3">Click Here</a> to download the Audio</p>
+    </audio>
+
+    <h1>Videos on your site</h1>
+    <h2>Local Host</h2>
+    <video controls width="560" poster="Landscape_mountain.jpg" loop>
+        <source src="production ID_4612084-HD.mp4" type="video/mp4">
+        <source src="production ID_4612084-HD.m4v" type="video/m4v">
+        <source src="production ID_4612084-HD.webm" type="video/webm">
+        <source src="production ID_4612084-HD.ogg" type="video/ogg">
+        <p>You browser won`t load the Videos <a href="production ID_4612084-HD.mp4">Click Here</a> to download the Video</p>
+    </video>
+
+    <h2>External Host (Youtube, Vimeo, ...)</h2>
+    <h3>Youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yLOUahp-RIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Vimeo</h3>
+    <iframe src="https://player.vimeo.com/video/191894507?h=e15bf4bcf0&autoplay=1&loop=1" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/191894507">Animation Reel</a> from <a href="https://vimeo.com/shaoyuhsu">Shao YU Hsu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    
+    
+
+</body>
+</html>

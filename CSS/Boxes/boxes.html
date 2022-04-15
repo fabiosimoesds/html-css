@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            height: 300px;
+            width: 300px;
+            background-color: antiquewhite;
+            /*border-width: 10px;
+            border-color: blueviolet;
+            border-style: solid;*/
+            border: 10px solid blueviolet; /* shorthand*/
+            border-radius: 10px;
+
+            margin: 10px auto 40px auto; /*shorthand for margin = top, right, bottom, left */
+            /*auto on left and right to keep the box centrilized*/
+            
+            /*outline-color: blue;
+            outline-width: 5px;
+            outline-style: double;*/
+            outline: 5px dotted blue; /* Shorthand */
+
+        }
+        a {
+            border-width: 10px;
+            border-style: double;
+            border-top-color: brown;
+            padding: 15px 5px; /*shorthand for padding = top, right, bottom, left */
+            /*if you insert only one value, it will consider the same size for all sides, if you isert 2 values, it will consider 1st value for top and bottom and 2nd value for left and right.*/
+            margin: 10px 10px 10px 10px
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box-Level Example</h1>
+    <p>Paragraphs are also a box-level example, but the <a href="#">lins are examples of inline-level</a>. Let`s see how this works.</p>    
+</body>
+</html>
