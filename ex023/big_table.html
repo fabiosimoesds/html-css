@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Data - Table</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: lightslategray;
+            color: white;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>List of counties of England by population in 1971</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>County</th>
+                <th>Total Population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Great London</td>
+                <td class="num">7,452,343</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lancashire</td>
+                <td class="num">5,118,405</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Yorkshire, West Riding</td>
+                <td class="num">3,785,013</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Warwickshire</td>
+                <td class="num">2,082,230</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Staffordshire</td>
+                <td class="num">1,858,348</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Hampshire</td>
+                <td class="num">1,565,476</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Cheshire</td>
+                <td class="num">1,546,397</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Durham</td>
+                <td class="num">1,409,633</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Kent</td>
+                <td class="num">1,399,471</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Essex</td>
+                <td class="num">	1,358,020</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Gloucestershire</td>
+                <td class="num">1,076,710</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Surrey</td>
+                <td class="num">1,002,892</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Nottinghamshire</td>
+                <td class="num">976,403</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Hertfordshire</td>
+                <td class="num">924,641</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Devon</td>
+                <td class="num">898,409</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Derbyshire</td>
+                <td class="num">885,130</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Northumberland</td>
+                <td class="num">795,754</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Leicestershire</td>
+                <td class="num">772,103</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Sussex, East</td>
+                <td class="num">747,976</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Yorkshire, North Riding</td>
+                <td class="num">725,656</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Worcestershire</td>
+                <td class="num">693,251</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Somerset</td>
+                <td class="num">682,665</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Berkshire</td>
+                <td class="num">636,860</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Norfolk</td>
+                <td class="num">617,621</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Buckinghamshire</td>
+                <td class="num">587,556</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Yorkshire, East Riding</td>
+                <td class="num">543,309</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Sussex, West</td>
+                <td class="num">492,500</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>Wiltshire</td>
+                <td class="num">486,755</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>Lincolnshire, Parts of Lindsey</td>
+                <td class="num">470,905</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Northamptonshire</td>
+                <td class="num">468,625</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>Bedfordshire</td>
+                <td class="num">464,286</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>Cornwall</td>
+                <td class="num">381,665</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>Oxfordshire</td>
+                <td class="num">381,584</td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>Suffolk, East</td>
+                <td class="num">381,464</td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>Dorset</td>
+                <td class="num">	361,925</td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td>Shropshire</td>
+                <td class="num">337,104</td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td>Cambridgeshire and Isle of Ely</td>
+                <td class="num">303,042</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>Cumberland</td>
+                <td class="num">292,187</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>Lincolnshire, Parts of Kesteven</td>
+                <td class="num">232,549</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>Huntingdon and Peterborough</td>
+                <td class="num">202,622</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>Suffolk, West</td>
+                <td class="num">164,732</td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td>Herefordshire</td>
+                <td class="num">138,638</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>Isle of Wight</td>
+                <td class="num">109,515</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>Lincolnshire, Parts of Holland</td>
+                <td class="num">105,685</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>Westmorland</td>
+                <td class="num">72,837</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>Rutland</td>
+                <td class="num">27,471</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <th>Total:</th>
+                <td class="num"><strong>46,018,363</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
