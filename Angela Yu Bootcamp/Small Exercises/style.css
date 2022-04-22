@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+h1 {
+    border-color: blue;
+    border-style: dotted;
+    width: fit-content;
+    padding: 10px;
+    color:red;
+    font-size: 50px;
+    }
+
+p {
+    color: blueviolet;
+}
+
+img {
+    background-color: red;
+}
