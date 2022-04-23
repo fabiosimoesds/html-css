@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather&family=Roboto+Mono&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -11,50 +13,57 @@
     --color3: #518EA6;
     --color4: #1E5359;
     --color5: #051A26;
+
+    --maintitle: 'Caveat', cursive;
+    --mainfont: 'Merriweather', serif;
+    --nav: 'Roboto Mono', monospace;
 }
 body{
-
+    text-align: center;
+    font-family: var(--mainfont);
+    
 }
 
 .top-cloud{
     position: absolute;
-    right: 15%;
+    right: 25%;
+    top:10%;
 }
 .bottom-cloud{
     position: absolute;
-    left: 25%;
-    top: 25%;
+    left: 20%;
+    top: 35%;
 }
 
-.mountain {
+/*.mountain {
     position: absolute;
-    left: 35%;
-    bottom: 0;
-}
+    left: 24%;
+    bottom: 0; 
+}*/
 
 
 div.top-container {
     background-color: var(--color1);
-    padding: 20px 20px 0px 20px;
+    padding-top: 100px;
     position: relative;
-    height: 500px;
+    height: auto;
+    width: 100vw;
+    font-family: var(--nav);
 }
 
 div.middle-container {
-    width: 200px;
-    height: 200px;
-    background-color: var(--color5);
+
 }
 
 div.bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: var(--color4);
+
 }
 
 h1 {
     color: var(--color3);
-    padding-bottom: 10px;
+    padding: 45px 0px 10px 0px;
+    font-family: var(--maintitle);
+    font-size: 3em;
 }
 
 .pro{
