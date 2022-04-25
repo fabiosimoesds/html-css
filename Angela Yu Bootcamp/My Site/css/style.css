@@ -17,7 +17,8 @@
 }
 body{
     text-align: center;
-    font-family: var(--mainfont);    
+    font-family: var(--mainfont);
+    margin: 0;
 }
 
 .top-cloud{
@@ -31,12 +32,6 @@ body{
     top: 40%;
 }
 
-/*.mountain {
-    position: absolute;
-    left: 24%;
-    bottom: 0; 
-}*/
-
 
 div.top-container {
     background-color: var(--color1);
@@ -47,12 +42,20 @@ div.top-container {
     font-family: var(--nav);
 }
 
+.profile > img {
+    width: 230px;
+    height: 230px;
+}
+
 div.middle-container {
+    padding: 50px 0;
 
 }
 
 div.bottom-container {
-
+    background-color: var(--color4);
+    padding: 30px 0px 10px;
+    width: 100vw;
 }
 
 h1 {
@@ -63,17 +66,24 @@ h1 {
 }
 
 h2 {
-    font-size: 1.1rem;
+    font-size: 2rem;
     color: var(--color4);
-    font-weight: normal;
+    margin-top: 50px
 }
-h3, a {
+
+h3 {
     color: var(--color3);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .intro{
     font-size: 1.1rem;
     color: black;
+}
+
+.description {
+    width: 30%;
+    margin: 1rem auto;
+    line-height: 2;
 }
 
 .pro{
@@ -98,3 +108,68 @@ h3, a {
     float: right;
     margin-left: 30px;
 }
+
+hr{
+    border: 5px dotted #bccfcf;
+    border-bottom: none;
+    width: 5%;
+    clear: left;
+    margin: 60px auto;
+}
+
+.bottom-container > p {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: var(--color1)
+
+}
+
+.bottom-container > a{
+    margin: 0px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color3);    
+}
+
+.bottom-container > a:hover {
+    color: var(--color1);
+}
+
+.contact-me{
+    width: 50%;
+    line-height: 2;
+    margin: 50px auto;
+}
+
+.contact-me p{
+    margin-bottom: 60px;
+}
+
+.btn {
+    background: var(--color3);
+    background-image: -webkit-linear-gradient(top, var(--color3), var(--color4));
+    background-image: -moz-linear-gradient(top, var(--color3), var(--color4));
+    background-image: -ms-linear-gradient(top, var(--color3), var(--color4));
+    background-image: -o-linear-gradient(top, var(--color3), var(--color4));
+    background-image: linear-gradient(to bottom, var(--color3), var(--color4));
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: var(--mainfont);
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #62acc7;
+    background-image: -webkit-linear-gradient(top, #62acc7, #297c85);
+    background-image: -moz-linear-gradient(top, #62acc7, #297c85);
+    background-image: -ms-linear-gradient(top, #62acc7, #297c85);
+    background-image: -o-linear-gradient(top, #62acc7, #297c85);
+    background-image: linear-gradient(to bottom, #62acc7, #297c85);
+    text-decoration: none;
+  }
