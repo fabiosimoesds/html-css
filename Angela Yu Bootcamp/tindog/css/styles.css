@@ -92,3 +92,41 @@ h3 {
 .fa-solid:hover{
     color: #ff4c68;
 }
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: var(--mainfont);
+    line-height: 1.5;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
