@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap');
+
+:root{
+    --mainfont: 'Montserrat', sans-serif;
+    --logofont: 'Ubuntu', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+h1 {
+    font-family: var(--mainfont);
+    font-weight: 900;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.my-brand {
+    font-family: var(--logofont);
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
