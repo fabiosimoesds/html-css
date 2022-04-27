@@ -176,6 +176,7 @@ h2 {
         font-size: 2rem;
     }
     .iphone-img {
+        padding-top: 5%;
         transform: rotate(0);
         position: static;
     }
