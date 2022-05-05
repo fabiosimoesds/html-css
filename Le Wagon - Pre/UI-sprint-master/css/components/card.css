@@ -1,0 +1,29 @@
+.card{
+    height: 300px;
+    color: white;
+    background: linear-gradient(135deg,
+                                rgba(0, 0, 0, 0.8) 0%,
+                                rgba(0, 0, 0, 0.3) 50%),
+                                url(https://image.shutterstock.com/image-photo/plastic-looking-huge-spiders-web-600w-1692422293.jpg)   ;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 10px;            
+}
+
+.card-category{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card-description{
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.card-image{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
